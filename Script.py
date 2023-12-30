@@ -9,7 +9,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a></b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
- ‣ Mʏ Nᴀᴍᴇ : <a href=https://t.me/TG_autofilter_bot>TG_autofilter_bot</a>
+ ‣ Mʏ Nᴀᴍᴇ : <a href=http://t.me/Liza_Mowl_Filter_Bot>Lɪᴢᴀ Mᴏᴡʟ</a>
  ‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TG_UPDATES1'>Aɴᴏɴʏᴍᴏᴜs</a> 
  ‣ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a> 
  ‣ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 

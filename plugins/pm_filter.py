@@ -595,8 +595,8 @@ async def qualities_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇϙᴜᴇꜱᴛ,\nᴋɪɴᴅʟʏ ʀᴇϙᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
-                show_alert=True,
+                f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                show_alert=False,
             )
     except:
         pass
@@ -613,11 +613,11 @@ async def qualities_cb_handler(client: Client, query: CallbackQuery):
         btn.append([
             InlineKeyboardButton(
                 text=QUALITIES[i].title(),
-                callback_data=f"vk#{QUALITIES[i].lower()}#{key}"
+                callback_data=f"fl#{QUALITIES[i].lower()}#{key}"
             ),
             InlineKeyboardButton(
                 text=QUALITIES[i+1].title(),
-                callback_data=f"vk#{QUALITIES[i+1].lower()}#{key}"
+                callback_data=f"fl#{QUALITIES[i+1].lower()}#{key}"
             ),
         ])
 
@@ -625,19 +625,18 @@ async def qualities_cb_handler(client: Client, query: CallbackQuery):
         0,
         [
             InlineKeyboardButton(
-                text="⇊ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ϙᴜᴀʟɪᴛʏ ⇊", callback_data="ident"
+                text="⇊ ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ǫᴜᴀʟɪᴛʏ ⇊", callback_data="ident"
             )
         ],
     )
     req = query.from_user.id
     offset = 0
-    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭", callback_data=f"vk#homepage#{key}")])
+    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭", callback_data=f"fl#homepage#{key}")])
 
     await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
-    
 
 
-@Client.on_callback_query(filters.regex(r"^vk#"))
+@Client.on_callback_query(filters.regex(r"^f1#"))
 async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
     _, quali, key = query.data.split("#")
     curr_time = datetime.now(pytz.timezone('Asia/Kolkata')).time()
@@ -659,7 +658,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             )
     except:
         pass
-    if lang != "homepage":
+    if quali != "homepage":
         search = f"{search} {quali}" 
     BUTTONS[key] = search
 

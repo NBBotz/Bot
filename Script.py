@@ -6,7 +6,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>Aɴᴏɴʏᴍᴏᴜs</a></b>"""
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a></b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
  ‣ Mʏ Nᴀᴍᴇ : <a href=https://t.me/TG_autofilter_bot>TG_autofilter_bot</a>
@@ -128,8 +128,8 @@ ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
-ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
-ʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ..."""
+Bʜᴀɪ A Wᴀʟᴀ Tᴜᴍʜᴀʀᴀ Lɪʏᴇ Nᴀʜɪ Hᴀɪ....,
+Aᴘ Aʟᴀɢ Sᴇ Rᴇǫᴜᴇsᴛ Kᴀʀᴏ Mᴏᴠɪᴇ Kᴀ Lɪʏᴀ..."""
 
     OLD_ALRT_TXT = """ʜᴇʏ {},
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
@@ -152,17 +152,17 @@ Nᴀᴍᴇ - {}"""
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
-    I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+    I_CUD_NT = """Bʜᴀɪ {} Is Nᴀᴍᴇ Kᴀ Kᴏʜɪ Mᴏᴠɪᴇ Nᴀʜɪ Hᴀɪ !!!! 
+Gᴏᴏɢʟᴇ Pᴇ Rɪɢʜᴛ Sᴘᴇʟʟɪɴɢ Cʜᴇᴄᴋ Kᴀʀʟᴏ..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    MVE_NT_FND = """Dᴀᴛᴀʙᴀsᴇ Mᴀ Mᴏᴠɪᴇ Nᴀʜɪ Mɪʟᴀ....Tʜᴏʀᴜ Dᴇʀ Wᴀɪᴛ Kᴀʀᴏ Aᴅᴍɪɴ Aᴘᴋᴀ Mᴏᴠɪᴇ Uᴘʟᴏᴀᴅ Kᴀʀ Dᴇɢᴀ...."""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} ❤️</b>"""
 
     SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/TG_UPADTES1/346> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
+<b>──────「<a href=https://t.me/All_Movies_Studio> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
 
 Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
 
@@ -170,9 +170,9 @@ Wᴀɴᴛ ᴛᴏ Kɴᴏᴡ Hᴏᴡ? Fᴏʟʟᴏᴡ Tʜᴇsᴇ Sᴛᴇᴘs:-
 
 sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 1𝟶𝟶 ᴍᴇᴍʙᴇʀs.
 
-sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://moneykamalo.com/ref/Harikushal>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
+sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://moneykamalo.com>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/TG_UPDATES1/346> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/GetBotsUpdates/3> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
 
 ➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
 
@@ -214,10 +214,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """ 
-<b>══════════════════
+<b>
 🗂 {file_name}
-═════════════════════ 
-𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @TG_LINKS_CHANNEL1</b>"""
+</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -227,7 +226,7 @@ IMDb Data:
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+🌟 Rating: <a href={url}/ratings>{rating}</a>/10 (based on {votes} user ratings.)
 ☀️ Languages : <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
@@ -446,35 +445,27 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ᴠ2.8.1 [sᴛᴀʙʟᴇ] """
 
     LOGO = """
- ____  ___    ____   __  ____  ____ 
-(_  _)/ __)  (  _ \ /  \(_  _)(__  )
-  )( ( (_ \   ) _ ((  O ) )(   / _/ 
- (__) \___/  (____/ \__/ (__) (____)"""
+ """
 
 # dont remove my logo 
-    PAID_TXT = """<b>Join a Prime group to get free movie without any ads
-Your time is valuable, Stop watching ads and simply avoid the stupidity
-<a href='https://telegram.me/+uaYeWVXMRrk2Zjk1'>➹ 🅰︎🅳︎ 🅵︎🆁︎🅴︎🅴︎ 🅶︎🆁︎🅾︎🆄︎🅿︎ ➹</a>
+    PAID_TXT = """<b>Jᴏɪɴ ᴀ Pʀɪᴍᴇ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴍᴏᴠɪᴇ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴀᴅs
+Yᴏᴜʀ ᴛɪᴍᴇ ɪs ᴠᴀʟᴜᴀʙʟᴇ, Sᴛᴏᴘ ᴡᴀᴛᴄʜɪɴɢ ᴀᴅs ᴀɴᴅ sɪᴍᴘʟʏ ᴀᴠᴏɪᴅ ᴛʜᴇ sᴛᴜᴘɪᴅɪᴛʏ...
 
-Prime Membership Progress
+Pʀɪᴍᴇ Mᴇᴍʙᴇʀsʜɪᴘ Pʟᴀɴ....
 
-1 month - 15 Rs
+𝟷 Mᴏɴᴛʜ - 𝟹𝟶 Rs.
 
-3 Months – 50 RS
+♛ UPI ID »»————> 
+♛ Oᴡɴᴇʀ »»————> <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a>
 
-6 months - 95 Rs
 
-12 Months - 300 Rs [1 Month Free Trial]
+Wᴏᴜʟᴅ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ʙᴇᴄᴏᴍᴇ ᴀ Pʀɪᴍᴇ Mᴇᴍʙᴇʀ? Fᴏʟʟᴏᴡ ᴛʜᴇsᴇ sᴛᴇᴘs:-
 
-♛ UPI ID »»————> harikushal234@okicici
+✤ Sᴛᴇᴘ 𝟷: Gᴏ ᴛᴏ ᴀɴʏ ᴘᴀʏᴍᴇɴᴛ ᴀᴘᴘ ʟɪᴋᴇ Gᴏᴏɢʟᴇ PAY, PAYTM,
+✤ Sᴛᴇᴘ 𝟸: Pᴀʏ ᴜsɪɴɢ UPI ID ᴅᴇᴘᴇɴᴅɪɴɢ ᴏɴ ʏᴏᴜʀ ᴘʟᴀɴ.
+✤ Sᴛᴇᴘ 𝟹 : Sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴛᴏ ᴏᴜʀ ᴀᴅᴍɪɴ ᴏʀ ᴏᴡɴᴇʀ Oʀ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ᴛᴏ sᴇɴᴅ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ..
 
-Would you like to become a Prime Member? Follow these steps:-
-
-✤ Step 1: Go to any payment app like Google PAY, PAYTM,
-✤ Step 2: Pay using UPI ID depending on your plan.
-✤ Step 3 : Send screenshot to our admin or owner Or contact me to send a screenshot.
-
-Any doubts or how to become a prime member? contact me @KUSHALHK @TG_Bots_Supporter</code></b>"""
+Aɴʏ ᴅᴏᴜʙᴛs ᴏʀ ʜᴏᴡ ᴛᴏ ʙᴇᴄᴏᴍᴇ ᴀ ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀ? Cᴏɴᴛᴀᴄᴛ ᴍᴇ -<a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a></code></b>"""
 
 
 

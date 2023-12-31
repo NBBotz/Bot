@@ -1,7 +1,6 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ 👀
 </b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
@@ -10,8 +9,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a></b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
- ‣ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Margot_Robbie_Filter_Bot>Mᴀʀɢᴏᴛ</a>
- ‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TG_UPDATES1'>Aɴᴏɴʏᴍᴏᴜs</a> 
+ ‣ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Margot_Robbie_Filter_Bot'>Mᴀʀɢᴏᴛ</a>
+ ‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a> 
  ‣ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a> 
  ‣ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
  ‣ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a> 

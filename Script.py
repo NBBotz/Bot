@@ -215,7 +215,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """ 
 <b>
-🎭 Fɪʟᴇ Nᴀᴍᴇ - {file_name}
+🎭 Fɪʟᴇ Nᴀᴍᴇ - {file_caption}
 </b>"""
     
     IMDB_TEMPLATE_TXT = """

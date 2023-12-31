@@ -81,7 +81,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/All_Movies_Studio_Movie_Search>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nBhai Idher Pe Movies Nahi Milaga. Hamara Group Join Karlo Uska Bad Uder Jaka Search Karo Movies <a href=https://t.me/All_Movies_Studio_Movie_Search>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ Nicha Wala Button Pe Click Karke Ap Humra Movies Group Pe Join Ho Sakta Ho 👇</b>",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/All_Movies_Studio_Movie_Search")]])
     )
     await bot.send_message(
@@ -1454,7 +1454,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('〆 Aʙᴏᴜᴛ', callback_data='about') 
                 ],[
-                    InlineKeyboardButton('💸Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Bᴏᴛ💰', callback_data='shortlink_info')
+                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Bᴏᴛ 💰', callback_data='shortlink_info')
                   ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1583,7 +1583,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "paid":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='about')
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(

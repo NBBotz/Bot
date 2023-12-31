@@ -1453,6 +1453,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('〆 Aʙᴏᴜᴛ', callback_data='about') 
+                ],[
+                    InlineKeyboardButton('💸Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Bᴏᴛ💰', callback_data='shortlink_info')
                   ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1529,10 +1531,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/All_Movies_Studio_Movie_Search')
         ],[
-             InlineKeyboardButton('Sᴛᴀᴛs', callback_data='stats')
-        ],[            
+             InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source'),
+                  
             InlineKeyboardButton(' Dɪsᴄʟᴀɪᴍᴇʀ​ ', callback_data='dics_btn')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),

@@ -81,7 +81,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nBhai Idher Pe Movies Nahi Milaga. Hamara Group Join Karlo Uska Bad Uder Jaka Search Karo Movies <a href=https://t.me/All_Movies_Studio_Movie_Search>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ Nicha Wala Button Pe Click Karke Ap Humra Movies Group Pe Join Ho Sakta Ho 👇</b>",   
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nBhai Idher Pe Movies Nahi Milaga. Hamara Group Join Karlo Uska Bad Uder Jaka Search Karo.... <a href=https://t.me/All_Movies_Studio_Movie_Search>Movies</a> ᴏʀ Nicha Wala Button Pe Click Karke Ap Humra Movies Group Pe Join Ho Sakta Ho 👇</b>",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/All_Movies_Studio_Movie_Search")]])
     )
     await bot.send_message(

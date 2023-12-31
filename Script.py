@@ -8,14 +8,15 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a></b>"""
  
-    ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
- ‣ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Margot_Robbie_Filter_Bot'>Mᴀʀɢᴏᴛ</a>
- ‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a> 
- ‣ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a> 
- ‣ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
- ‣ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a> 
- ‣ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://render.com'>Rᴇɴᴅᴇʀ</a> 
- ‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ𝟸.𝟽.𝟸 [sᴛᴀʙʟᴇ]></b>"""
+    ABOUT_TXT = """<b>╭────[ Mᴀʀɢᴏᴛ Rᴏʙʙɪᴇ ]────⍟
+├⍟ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Margot_Robbie_Filter_Bot'>Mᴀʀɢᴏᴛ</a>
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍᴏᴜs</a> 
+├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
+├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
+├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a> 
+├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://render.com'>Rᴇɴᴅᴇʀ</a> 
+├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ𝟸.𝟽.𝟸 [sᴛᴀʙʟᴇ]
+╰───────────────⍟></b>"""
 
     SOURCE_TXT = """
 <b>Hᴇʏ, Tʜɪs Is Nᴏᴛ A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏɪᴇᴄᴛ.</b>

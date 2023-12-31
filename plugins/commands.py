@@ -42,18 +42,16 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
+        buttons = = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton(' Mᴀɪɴ Cʜᴀɴɴᴇʟ ', url="https://t.me/All_Movies_Studio"),
-                    InlineKeyboardButton(' Mᴏᴠɪᴇ Gʀᴏᴜᴘ ', url="https://t.me/All_Movies_Studio_Movie_Search")
+                    InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
+                    InlineKeyboardButton('✪ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/All_Movies_Studio")
                 ],[
-                    InlineKeyboardButton(' Pʀᴇᴍɪᴜᴍ ', callback_data='paid')
-                ],[
-                    InlineKeyboardButton(' Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
-                ],[
-                    InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ 💰', callback_data="shortlink_info")
+                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('〆 Aʙᴏᴜᴛ', callback_data='about')
+                 ],[
+                    InlineKeyboardButton('💸Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Bᴏᴛ💰', callback_data='shortlink_info')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAJnLmTuFB3tbjsPSKlQYaKfUux_RBtzAAIEAAPBJDExieUdbguzyBAeBA") 
@@ -95,18 +93,16 @@ async def start(client, message):
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
+        buttons = = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton(' Mᴀɪɴ Cʜᴀɴɴᴇʟ ', url="https://t.me/All_Movies_Studio"),
-                    InlineKeyboardButton(' Mᴏᴠɪᴇ Gʀᴏᴜᴘ ', url="https://t.me/All_Movies_Studio_Movie_Search")
+                    InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
+                    InlineKeyboardButton('✪ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/All_Movies_Studio")
                 ],[
-                    InlineKeyboardButton(' Pʀᴇᴍɪᴜᴍ ', callback_data='paid')
-                ],[
-                    InlineKeyboardButton(' Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton(' Aʙᴏᴜᴛ', callback_data='about')
-                ],[
-                    InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ 💰', callback_data="shortlink_info")
+                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('〆 Aʙᴏᴜᴛ', callback_data='about')
+                 ],[
+                    InlineKeyboardButton('💸Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Bᴏᴛ💰', callback_data='shortlink_info')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -320,7 +316,7 @@ async def start(client, message):
                     logger.exception(e)
                     f_caption=f_caption
             if f_caption is None:
-                f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
+                f_caption = f"' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))

@@ -216,7 +216,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """ 
 <b>
-🎭 Fɪʟᴇ Nᴀᴍᴇ - {file_caption}
+🎭 Fɪʟᴇ Nᴀᴍᴇ - <a href=https://t.me/All_Movies_Studio>{file_name}</a>
 </b>"""
     
     IMDB_TEMPLATE_TXT = """

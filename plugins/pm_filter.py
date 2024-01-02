@@ -1553,10 +1553,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-
-
-
-elif query.data == "special":
+      elif query.data == f"special":
         buttons = [[            
              InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'), 
              InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='ytdl') 
@@ -1582,8 +1579,7 @@ elif query.data == "special":
             reply_markup=repy_markup,
             parse_mode=enums.ParseMode.HTML
         )
-
-elif query.data == "ytdl":
+     elif query.data == "ytdl":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
         ]]
@@ -1607,9 +1603,8 @@ elif query.data == "ytdl":
             text=script.YTDL_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-)
-
-elif query.data == "json":
+   )
+   elif query.data == "json":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
         ]]

@@ -46,7 +46,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
-                    InlineKeyboardButton('✪ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/All_Movies_Studio")
+                    InlineKeyboardButton('✪ Pʀᴇᴍɪᴜᴍ', callback_data='paid')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('〆 Aʙᴏᴜᴛ', callback_data='about')
@@ -97,7 +97,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
-                    InlineKeyboardButton('✪ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/All_Movies_Studio")
+                    InlineKeyboardButton('✪ Pʀᴇᴍɪᴜᴍ', callback_data='paid')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('〆 Aʙᴏᴜᴛ', callback_data='about')

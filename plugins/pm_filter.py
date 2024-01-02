@@ -1512,7 +1512,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton(' Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele') 
          ], [ 
              InlineKeyboardButton(' Cᴏɴɴᴇᴄᴛɪᴏɴs ', callback_data='coct'), 
-             InlineKeyboardButton(' Eᴀʀɴ Mᴏɴᴇʏ ', callback_data='shortlink_info') 
+             InlineKeyboardButton(' Exᴛʀᴀ ', callback_data='extra') 
          ], [ 
              InlineKeyboardButton(' Fɪʟᴛᴇʀs ', callback_data='filters'), 
              InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start')
@@ -1537,7 +1537,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   
             InlineKeyboardButton(' Dɪsᴄʟᴀɪᴍᴇʀ​ ', callback_data='dics_btn')
         ],[
-            InlineKeyboardButton('Extra Fetures', callback_data='special')
+            InlineKeyboardButton('Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs', callback_data='special')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -1581,6 +1581,58 @@ elif query.data == "special":
             text=script.SPECIAL_TXT.format(temp.B_NAME),
             reply_markup=repy_markup,
             parse_mode=enums.ParseMode.HTML
+        )
+
+elif query.data == "ytdl":
+        buttons = [[
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.YTDL_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+)
+
+elif query.data == "json":
+        buttons = [[
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.JSON_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML 
         )
 
 

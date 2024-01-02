@@ -1537,6 +1537,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   
             InlineKeyboardButton(' Dɪsᴄʟᴀɪᴍᴇʀ​ ', callback_data='dics_btn')
         ],[
+            InlineKeyboardButton('Extra Fetures', callback_data='special')
+        ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
@@ -1551,6 +1553,38 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+
+
+
+elif query.data == "special":
+        buttons = [            
+             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'), 
+             InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='ytdl') 
+        ],[
+             InlineKeyboardButton('ꜱʜᴀʀᴇ ᴛᴇxᴛ', callback_data='share'), 
+             InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song') 
+                 ], [
+             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='shortlink_info'),
+             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker'),
+             InlineKeyboardButton('ᴊ-ꜱᴏɴ', callback_data='json'),         
+        ],[
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+        ]]
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SPECIAL_TXT.format(temp.B_NAME),
+            reply_markup=repy_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+
+    
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('About', callback_data='about')

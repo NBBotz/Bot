@@ -1553,7 +1553,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-      elif query.data == f"special":
+      elif query.data == "special":
         buttons = [[            
              InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'), 
              InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='ytdl') 

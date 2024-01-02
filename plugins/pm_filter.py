@@ -1515,7 +1515,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton(' Pʀᴇᴍɪᴜᴍ ', callback_data='paid') 
          ], [ 
              InlineKeyboardButton(' Fɪʟᴛᴇʀs ', callback_data='filters'), 
-             InlineKeyboardButton(' Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs ', callback_data='extra')
+             InlineKeyboardButton(' Exᴛʀᴀ ', callback_data='extra')
         ],[
              InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start'),
              InlineKeyboardButton('⇍ ʙᴀᴄᴋ ', callback_data='close_data')
@@ -1616,37 +1616,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.MANUELFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
-     elif query.data == "json":
-        buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
-        ]]
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.JSON_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )       
-    elif query.data == "ytdl":
-        buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
-        ]]
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.YTDL_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
+        )        
     elif query.data == "autofilter":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='filters')
@@ -1704,17 +1674,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
     elif query.data == "extra":
-        buttons =  [[                                         
-            
-             InlineKeyboardButton('ꜱʜᴀʀᴇ ᴛᴇxᴛ', callback_data='share'),        
-             InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song')
-          ],[
-             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='shortlink_info'), 
-             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker')
-         ],[
-             InlineKeyboardButton('JSON', callback_data='json'), 
-             InlineKeyboardButton('YTDL', callback_data='yt-dl')
-          ],[                               
+        buttons =  [[                                                                                               
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         await client.edit_message_media(
@@ -1724,7 +1684,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.SPECIAL_TXT,
+            text=script.EXTRAMOD_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )

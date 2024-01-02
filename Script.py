@@ -69,7 +69,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
-my features Stay here new features coming soon...  
+Here Is My Extra Features.. New Features Comming Soon...  
  <b>✯ Maintained by : <a href=https://t.me/Bot0987654>Oᴡɴᴇʀ</a></b>
   
  <b>✯ Join here : <a href=https://t.me/All_Movies_Studio>Mᴀɪɴ Cʜᴀɴɴᴇʟ</a></b> 
@@ -411,9 +411,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
   
  </b>""" 
 
-    SPECIAL_TXT = """
-<b>Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!.</b>
-"""
+    
   
     PIN_TXT = """<b>ᴩɪɴ ᴍᴏᴅᴜʟᴇ 
  ᴩɪɴ ᴀ ᴍᴇꜱꜱᴀɢᴇ... 

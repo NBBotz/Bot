@@ -16,7 +16,7 @@ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href='https://t.me/Bot0987654'>Aɴᴏɴʏᴍ�
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a> 
 ├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://render.com'>Rᴇɴᴅᴇʀ</a> 
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ𝟸.𝟽.𝟸 [sᴛᴀʙʟᴇ]
-╰───────────────⍟></b>"""
+╰───────────────⍟</b>"""
 
     SOURCE_TXT = """
 <b>Hᴇʏ, Tʜɪs Is Nᴏᴛ A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏɪᴇᴄᴛ.</b>

@@ -67,28 +67,30 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /disconnect  - <code>ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ</code>
 • /connections - <code>ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</code>"""
 
-    EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
+    EXTRAMOD_TXT = """
 <b>ɴᴏᴛᴇ:</b>
 Here Is My Extra Features.. New Features Comming Soon...  
+ 
  <b>✯ Maintained by : <a href=https://t.me/Bot0987654>Oᴡɴᴇʀ</a></b>
   
  <b>✯ Join here : <a href=https://t.me/All_Movies_Studio>Mᴀɪɴ Cʜᴀɴɴᴇʟ</a></b> 
   
- ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
- code> 
+ /id - <b><code>Get Id Of Specific User .</ 
+ code> </b>
   
- ./info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
+ /info  - <b><code>Get Information About A User.</code></b>
   
- ./song - Download any song [<code>example /song vaa vaathi song</code>] 
+ /song - <b> You Can Download Any Song.. [<code>example /song vaa vaathi song</code>] </b>
   
- ./telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
+ /telegraph - <b><code>Telegraph Generator...Send Under 5MB Video Or Photo I Give Telegraph Link.</code> </b>
   
- ./tts - <code>This command usage text to voice converter</code> 
+ /tts - <b><code>This Command Help You To Convert Text To Voice.</code> </b>
   
- ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
+ /video - <b>This Command Help You Download YouTube Videos In HD.[<code>example /video https://youtu.be/Aiue8PMuD-k</code>]</b>
 
-./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
+/font - <b>This Command Help You To Genarate Stylish Font.[<code>example /font hi</code>]</b>
 
+/stickerid - </b>This Command Help You To Get Any Sticker Id.<b>"""
 
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>

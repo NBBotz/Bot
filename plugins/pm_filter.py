@@ -1512,7 +1512,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton(' Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele') 
          ], [ 
              InlineKeyboardButton(' Cᴏɴɴᴇᴄᴛɪᴏɴs ', callback_data='coct'), 
-             InlineKeyboardButton(' Sᴘᴇᴄɪᴀʟ  ', callback_data='extra') 
+             InlineKeyboardButton(' Pʀᴇᴍɪᴜᴍ ', callback_data='paid') 
          ], [ 
              InlineKeyboardButton(' Fɪʟᴛᴇʀs ', callback_data='filters'), 
              InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start')
@@ -1584,6 +1584,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "paid":
         buttons = [[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
+        ],[
+            InlineKeyboardButton('Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴsʜᴏᴛ', url='https://t.me/Bot0987654')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1694,7 +1696,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.EXTRA_TXT (temp.B_NAME),
+            text=script.EXTRA_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )

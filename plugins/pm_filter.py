@@ -1515,7 +1515,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton(' Pʀᴇᴍɪᴜᴍ ', callback_data='paid') 
          ], [ 
              InlineKeyboardButton(' Fɪʟᴛᴇʀs ', callback_data='filters'), 
-             InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start')
+             InlineKeyboardButton(' Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs ', callback_data='extra')
+        ],[
+             InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start'),
+             lineKeyboardButton('⇍ ʙᴀᴄᴋ ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1696,7 +1699,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.EXTRA_TXT,
+            text=script.SPECIAL_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )

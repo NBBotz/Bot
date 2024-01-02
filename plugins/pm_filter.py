@@ -1518,7 +1518,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton(' Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs ', callback_data='extra')
         ],[
              InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start'),
-             lineKeyboardButton('⇍ ʙᴀᴄᴋ ', callback_data='close_data')
+             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1689,7 +1689,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
     elif query.data == "extra":
-        buttons =  [[  
+        buttons =  [[                                         
+            
+             InlineKeyboardButton('ꜱʜᴀʀᴇ ᴛᴇxᴛ', callback_data='share'),        
+             InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song')
+          ],[
+             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='shortlink_info'), 
+             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker')
+          ],[                               
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         await client.edit_message_media(

@@ -1617,7 +1617,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "button":
+    elif query.data == "ytdl":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
         ]]
@@ -1628,7 +1628,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.BUTTON_TXT,
+            text=script.YTDL_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -1908,37 +1908,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )  
-        elif query.data == "json":
-        buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
-        ]]
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.JSON_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-      elif query.data == "ytdl":
-        buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
-        ]]
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.YTDL_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-      )
-    elif query.data.startswith("setgs"):
+        elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
         grpid = await active_connection(str(query.from_user.id))
 

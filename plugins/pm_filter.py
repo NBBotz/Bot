@@ -1512,7 +1512,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton(' Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele') 
          ], [ 
              InlineKeyboardButton(' Cᴏɴɴᴇᴄᴛɪᴏɴs ', callback_data='coct'), 
-             InlineKeyboardButton(' Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs ', callback_data='extra') 
+             InlineKeyboardButton(' Sᴘᴇᴄɪᴀʟ  ', callback_data='extra') 
          ], [ 
              InlineKeyboardButton(' Fɪʟᴛᴇʀs ', callback_data='filters'), 
              InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start')
@@ -1685,8 +1685,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "extra":
         buttons =  [[  
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 

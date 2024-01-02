@@ -1557,7 +1557,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
 elif query.data == "special":
-        buttons = [            
+        buttons = [[            
              InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'), 
              InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='ytdl') 
         ],[

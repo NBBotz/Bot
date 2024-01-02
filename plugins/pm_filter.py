@@ -1586,9 +1586,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "paid":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
-        ],[
             InlineKeyboardButton('Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴsʜᴏᴛ', url='https://t.me/Bot0987654')
+        ],[   
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')           
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(

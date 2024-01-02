@@ -1449,7 +1449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
-                    InlineKeyboardButton('✪ Mᴀɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/All_Movies_Studio")
+                    InlineKeyboardButton('✪ Pʀᴇᴍɪᴜᴍ', callback_data='paid')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('〆 Aʙᴏᴜᴛ', callback_data='about') 
@@ -1883,7 +1883,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )         
-    elif query.data.startswith("setgs"):
+    elif query.data.startswith("setgs")
         ident, set_type, status, grp_id = query.data.split("#")
         grpid = await active_connection(str(query.from_user.id))
 

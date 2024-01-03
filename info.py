@@ -49,9 +49,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'a7ac9b3012c67d7491414cf272d82593c75f6cbb')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'd9870f916400c4c5186b8f7f066f27b512e71ef7')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)

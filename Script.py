@@ -71,26 +71,25 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 <b>ɴᴏᴛᴇ:</b>
 Here Is My Extra Features.. New Features Comming Soon...  
  
- <b>✯ Maintained by : <a href=https://t.me/Bot0987654>Oᴡɴᴇʀ</a></b>
+ ✯ Maintained by : <a href=https://t.me/Bot0987654>Oᴡɴᴇʀ</a>
   
- <b>✯ Join here : <a href=https://t.me/All_Movies_Studio>Mᴀɪɴ Cʜᴀɴɴᴇʟ</a></b> 
+ ✯ Join here : <a href=https://t.me/All_Movies_Studio>Mᴀɪɴ Cʜᴀɴɴᴇʟ</a>
   
- /id - <b><code>Get Id Of Specific User .</ 
- code> </b>
+ /id - <code>Get Id Of Specific User .</code>
   
- /info  - <b><code>Get Information About A User.</code></b>
+ /info  - <code>Get Information About A User.</code>
   
- /song - <b> You Can Download Any Song.. [<code>example /song vaa vaathi song</code>] </b>
+ /song -  You Can Download Any Song.. [<code>example /song vaa vaathi song</code>]
   
- /telegraph - <b><code>Telegraph Generator...Send Under 5MB Video Or Photo I Give Telegraph Link.</code> </b>
+ /telegraph - <code>Telegraph Generator...Send Under 5MB Video Or Photo I Give Telegraph Link.</code>
   
- /tts - <b><code>This Command Help You To Convert Text To Voice.</code> </b>
+ /tts - <code>This Command Help You To Convert Text To Voice.</code>
   
- /video - <b>This Command Help You Download YouTube Videos In HD.[<code>example /video https://youtu.be/Aiue8PMuD-k</code>]</b>
+ /video - This Command Help You Download YouTube Videos In HD.[<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
 
-/font - <b>This Command Help You To Genarate Stylish Font.[<code>example /font hi</code>]</b>
+/font - This Command Help You To Genarate Stylish Font.[<code>example /font hi</code>]
 
-/stickerid - </b>This Command Help You To Get Any Sticker Id.<b>"""
+/stickerid - This Command Help You To Get Any Sticker Id."""
 
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>

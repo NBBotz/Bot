@@ -1507,9 +1507,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
     elif query.data == "help":
-        buttons = [[
-             InlineKeyboardButton('• Aᴅᴍɪɴ •', callback_data='admin')
-        ],[
+        buttons = [[                     
             InlineKeyboardButton('• Fɪʟᴇ Sᴛᴏʀᴇ •', callback_data='store_file'),   
              InlineKeyboardButton('• Tᴇʟᴇɢʀᴀᴘʜ •', callback_data='tele') 
          ], [ 
@@ -1555,16 +1553,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )         
- elif query.data == "admin":
-        buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='owner_info')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        if query.from_user.id in ADMINS:
-            await query.message.edit_text(text=script.ADMIN_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
-        else:
-            await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nIᴛꜱ ᴏɴʟʏ ғᴏʀ ᴍʏ ADMINS", show_alert=True)
-            
+ 
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('About', callback_data='about')

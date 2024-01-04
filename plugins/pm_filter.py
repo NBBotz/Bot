@@ -1673,8 +1673,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
     elif query.data == "extra":
-        buttons =  [[                                                                                               
-            InlineKeyboardButton('Json', callback_data='json'),
+        buttons =  [[                                                                                                           
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         await client.edit_message_media(
@@ -1842,22 +1841,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-        elif query.data == "json":
-            btn = [[
-                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Bot0987654")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.JSON_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+        
     elif query.data == "rendering_info":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')

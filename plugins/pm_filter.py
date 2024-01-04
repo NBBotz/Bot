@@ -1554,10 +1554,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "about":
-        buttons = [[                
-            InlineKeyboardButton('• Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ •', url=GRP_LNK),
-            InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url='https://t.me/All_Movies_Studio_Movie_Search')
-        ],[
+        buttons = [[                          
              InlineKeyboardButton('• Sᴏᴜʀᴄᴇ •', callback_data='source'),
                   
             InlineKeyboardButton('• Dɪsᴄʟᴀɪᴍᴇʀ​ •', callback_data='dics_btn')

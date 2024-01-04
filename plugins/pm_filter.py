@@ -1508,16 +1508,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton(' Fɪʟᴇ Sᴛᴏʀᴇ ', callback_data='store_file'),   
-             InlineKeyboardButton(' Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele') 
-         ], [ 
-             InlineKeyboardButton(' Cᴏɴɴᴇᴄᴛɪᴏɴs ', callback_data='coct'), 
-             InlineKeyboardButton(' Pʀᴇᴍɪᴜᴍ ', callback_data='paid') 
-         ], [ 
-             InlineKeyboardButton(' Fɪʟᴛᴇʀs ', callback_data='filters'), 
-             InlineKeyboardButton(' Exᴛʀᴀ ', callback_data='extra')
+             InlineKeyboardButton('• Aᴅᴍɪɴ •', callback_data='admin')
         ],[
-             InlineKeyboardButton(' Hᴏᴍᴇ ', callback_data='start')             
+            InlineKeyboardButton('• Fɪʟᴇ Sᴛᴏʀᴇ •', callback_data='store_file'),   
+             InlineKeyboardButton('• Tᴇʟᴇɢʀᴀᴘʜ •', callback_data='tele') 
+         ], [ 
+             InlineKeyboardButton('• Cᴏɴɴᴇᴄᴛɪᴏɴs •', callback_data='coct'), 
+             InlineKeyboardButton('• Sᴛɪᴄᴋᴇʀ •', callback_data='sticker') 
+         ], [ 
+             InlineKeyboardButton('• Fɪʟᴛᴇʀs •', callback_data='filters'), 
+             InlineKeyboardButton('• Exᴛʀᴀ •', callback_data='extra')
+        ],[
+             InlineKeyboardButton('• Hᴏᴍᴇ •', callback_data='start')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1531,7 +1533,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "about":
-        buttons = [[
+        buttons = [[                
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
             InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/All_Movies_Studio_Movie_Search')
         ],[
@@ -1552,7 +1554,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )            
+        )         
+        elif query.data == "admin":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='owner_info')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        if query.from_user.id in ADMINS:
+            await query.message.edit_text(text=script.ADMIN_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
+        else:
+            await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nIᴛꜱ ᴏɴʟʏ ғᴏʀ ᴍʏ ADMINS", show_alert=True)
+            
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('About', callback_data='about')

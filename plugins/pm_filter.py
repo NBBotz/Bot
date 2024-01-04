@@ -1674,7 +1674,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "extra":
         buttons =  [[                                                                                               
-            InlineKeyboardButton('Json', callback_data='json')
+            InlineKeyboardButton('Json', callback_data='json'),
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         await client.edit_message_media(

@@ -1449,7 +1449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ', callback_data='shortlink_info'),
-                    InlineKeyboardButton('• Uᴘᴅᴀᴛᴇs •', url=CHNL_LNK)
+                    InlineKeyboardButton('• Sᴜᴘᴘᴏʀᴛ •', callback_data='group_info')
                 ],[
                     InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='help'),
                     InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
@@ -1471,13 +1471,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "group_info":
         buttons = [[           
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url="https://telegram.me/AllRequestGroups"),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://telegram.dog/BotszList")
+            InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url="https://t.me/All_Movies_Studio_Movie_Search"),
+            InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url="https://t.me/All_Movies_Studio")
         ],[
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url="https://telegram.me/BotszSupport"),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url="https://telegram.me/ReviewsGallary")
+            InlineKeyboardButton('• Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ •', url="https://t.me/GetBotsSupport"),
+            InlineKeyboardButton('• Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ •', url="https://t.me/GetBotsUpdates")
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1494,11 +1494,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "filters":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('• Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀs •', callback_data='manuelfilter'),
+            InlineKeyboardButton('• Aᴜᴛᴏ Fɪʟᴛᴇʀs •', callback_data='autofilter')
         ],[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs', callback_data='global_filters')
+            InlineKeyboardButton('• Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs •', callback_data='global_filters'),
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1540,7 +1540,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('• Fɪʟᴛᴇʀs •', callback_data='filters'), 
              InlineKeyboardButton('• Exᴛʀᴀ •', callback_data='extra')
         ],[
-             InlineKeyboardButton('• Hᴏᴍᴇ •', callback_data='start')             
+             InlineKeyboardButton('⇍ Hᴏᴍᴇ ⇏', callback_data='start')             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1555,15 +1555,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[                
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/All_Movies_Studio_Movie_Search')
+            InlineKeyboardButton('• Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ •', url=GRP_LNK),
+            InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url='https://t.me/All_Movies_Studio_Movie_Search')
         ],[
-             InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source'),
+             InlineKeyboardButton('• Sᴏᴜʀᴄᴇ •', callback_data='source'),
                   
-            InlineKeyboardButton(' Dɪsᴄʟᴀɪᴍᴇʀ​ ', callback_data='dics_btn')
+            InlineKeyboardButton('• Dɪsᴄʟᴀɪᴍᴇʀ​ •', callback_data='dics_btn')
         ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('⇍ Hᴏᴍᴇ ⇏', callback_data='start'),
+            
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
